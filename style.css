@@ -1,0 +1,114 @@
+body{
+    background: url("./image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.heading{
+    height: fit-content;
+    width: fit-content;
+    color: rgb(226, 23, 33);
+    margin: auto;
+    margin-top: 200px;
+    font-size: xx-large;
+    
+}
+
+.play{
+    display: flex;
+    width: 550px;
+    margin: auto;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.score{
+    display: flex;
+    height: 200px;
+    width: 800px;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 15px;
+    border: 10px solid green;
+}
+.mark{
+    display: flex;
+    color: rgb(14, 13, 13);
+    margin: auto;
+    font-size: 20px;
+    margin-top: 40px;
+}
+#p1
+{
+    display: flex;
+    height: 20px;
+    width: 250px;
+    margin: auto;
+    margin-top:35px;
+    justify-content: space-evenly;
+}
+#p2
+{
+    display: flex;
+    height: 20px;
+    width: 250px;
+    margin: auto;
+    margin-top:35px;
+    justify-content: space-evenly;
+}
+#circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 30px;
+    border: 3px solid rgb(17, 17, 17);
+    
+}
+#circle1{
+    height: 40px;
+    width: 40px;
+    
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 30px;
+    border: 3px solid rgb(19, 5, 58);
+}
+#result{
+    width: 800px;
+    height: 50px;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+.but{
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#sub{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 30%;
+    background: greenyellow;
+}
+#ref{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 30%;
+    background: greenyellow;
+}
+#sub:hover,#ref:hover{
+    color: rgb(15, 11, 11);
+    background: rgb(185, 100, 100);
+}
+
+
+
+
